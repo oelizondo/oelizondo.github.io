@@ -1,0 +1,206 @@
+body
+{
+	font-family: Century Gothic;
+	color: #F0E68C;
+	background-color: #181818;
+}
+a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+.firstlinks
+{
+	text-align: center;
+	list-style: none;
+	margin-top: 10px;
+	padding-top: 7px;
+	padding-right: 25px;
+}
+.firstlinks a:hover
+{
+	color: #F0E68C;
+}
+.secondlinks
+{
+	text-align: center;
+	list-style: none;
+	margin-top: 10px;
+	padding-top: 7px;
+	padding-right: 25px;
+}
+.secondlinks a:hover
+{
+	color: #F0E68C;
+}
+.yo
+{
+	border: 1px solid #F0E68C;
+	width: 250px;
+	height: 300px;
+	margin: 0 auto;
+	position: relative;
+	right: 250px;
+}
+.Indexh3-1
+{
+	text-align: 0 auto;
+
+}
+.Indexh3-2
+{
+	text-align: 0 auto;
+}
+
+.index
+{
+	margin: 0 auto;
+	text-align: center;
+	height: 600px;
+}
+.mainfooter
+{
+	width: 50%;
+	float:left;
+	margin: 2% 0 2% 25%;
+	position: relative;
+	bottom: 10px;	
+}
+.mainfooter p
+{
+	color: #F0E68C;
+	width: 92%;
+	margin: 2% auto;
+	text-align: center;
+	font-size: 15px;
+}
+.info
+{
+	
+	width: 20%;
+	position: relative;
+	left: 600px;	
+	bottom: 300px;
+}
+.resources
+{
+	
+	width: 20%;
+	position: relative;
+	left: 775px;	
+	bottom: 465px;
+}
+.mainHeading
+{
+	margin-bottom: 60px;
+	margin-top: 75px;
+}
+h2
+{
+	margin-bottom: 115px;
+}
+.interests
+{
+	position: relative;
+	left: 400px;
+	width: 50%;
+}
+.nav3
+{
+	width: 60%;
+	position: relative;
+	left: 360px;
+}
+.interestlink
+{
+	display: inline-block;
+	margin-right: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.interestlink a:hover
+{
+	color: #F0E68C;
+}
+.asuka
+{
+	position: relative;
+	left: 550px; 
+	width: 20%;
+}
+.portfoliotitle
+{
+	width: 50%;
+	position: relative;
+	left: 400px;
+}
+.portfolio
+{
+	position: relative;
+	left: 450px;
+	width: 10%;
+}
+.portfoliolinks
+{
+	list-style: none;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.portfoliolinks a:hover
+{
+	color: #F0E68C;
+}
+.portfoliolinks2
+{
+	list-style: none;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.portfoliolinks2 a:hover
+{
+	color: #F0E68C;
+}
+.portfoliopersonal
+{
+	position: relative;
+	width: 10%;
+	left: 1000px;
+	bottom: 150px;
+}
+.portfolioh3
+{
+	margin-top: 50px;
+	position: relative;
+	left: 25px;
+}
+.octocat
+{
+	position: relative;
+	width: 20%;
+	left: 900px;
+	bottom: 150px;
+}
+.contactme
+{
+	color: #F0E68C;
+	position: relative;
+	left: 89px;
+}
+.mail
+{
+	position: relative;
+	left: 650px;
+	width: 50%;
+	bottom: 100px;
+	color: #FFF;
+}
+.maillink
+{
+	list-style: none;
+}
+.studies
+{
+	width: 50%;
+	position: relative;
+	left: 400px;
+}
