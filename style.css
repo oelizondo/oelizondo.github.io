@@ -35,7 +35,6 @@ a
 }
 .yo
 {
-	border: 1px solid #F0E68C;
 	width: 250px;
 	height: 300px;
 	margin: 0 auto;
@@ -79,7 +78,7 @@ a
 	
 	width: 20%;
 	position: relative;
-	left: 600px;	
+	left: 39%;	
 	bottom: 300px;
 }
 .resources
@@ -87,7 +86,7 @@ a
 	
 	width: 20%;
 	position: relative;
-	left: 775px;	
+	left: 50%;	
 	bottom: 465px;
 }
 .mainHeading
