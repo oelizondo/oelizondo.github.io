@@ -108,7 +108,7 @@ h2
 {
 	width: 60%;
 	position: relative;
-	left: 360px;
+	left: 22.5%;
 }
 .interestlink
 {
@@ -199,7 +199,33 @@ h2
 }
 .studies
 {
-	width: 50%;
 	position: relative;
-	left: 400px;
+	left: 25%;
+	width: 50%;
+}
+.programming
+{
+	position: relative;
+	left: 25%;
+	width: 50%;
+}
+.proskill
+{
+	list-style: none;
+	color: #FFF;
+}
+.skills
+{
+	position: relative;
+	left: 25%;
+	width: 50%;
+}
+.skills1
+{
+	list-style: none;
+	color: #FFF;
+}
+.2h
+{
+	margin: 0;
 }
