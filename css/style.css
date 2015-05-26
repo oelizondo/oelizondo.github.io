@@ -1,0 +1,42 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+aside{
+	max-width: 35%;
+	height: 100vh;
+	position: fixed;
+	text-align: right;
+	box-sizing: border-box;
+	padding: 15px;
+}
+aside ul {
+	list-style: none;
+	padding: 0;
+	line-height: 2;
+}
+aside ul a {
+	color: black;
+	text-decoration: none ;
+}
+aside ul a:hover {
+	color: red;
+}
+.blog{
+	max-width: 65%;
+	height: auto;
+	position: relative;
+	left: 80px;
+	margin: 0 auto;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 50px;
+}
+.body{
+	max-height: 200px;
+	overflow-y: ;
+}
+footer{
+	text-align: center ;
+}
