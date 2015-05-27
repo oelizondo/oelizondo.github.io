@@ -21,17 +21,20 @@ aside ul a {
 	text-decoration: none ;
 }
 aside ul a:hover {
-	color: red;
+	color: #B71C1C;
 }
 .blog{
 	max-width: 65%;
 	height: auto;
 	position: relative;
-	left: 80px;
+	left: -40px;
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 	box-sizing: border-box;
 	padding: 50px;
+}
+.blog h2{
+	color: #B71C1C;
 }
 .body{
 	max-height: 200px;

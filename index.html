@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>oscar elizondo's blog</title>
 	<link rel="stylesheet" href="dist/css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body ng-app='myApp'>
@@ -13,28 +12,32 @@
 		<p><i>all of my what</i></p>
 		<nav>
 			<ul>
-				<li><a href=""><i>github</i></a></li>
-				<li><a href=""><i>twitter</i></a></li>
-				<li><a href=""><i>contact</i></a></li>
+				<li><a href="">github</a></li>
+				<li><a href="">twitter</a></li>
+				<li><a href="">contact</a></li>
 			</ul>
 		</nav>
 	</aside>
 	<section ng-controller='MainCtrl' class='blog'>
-		<div ng-repeat='blog in blogArt'>
+		<div ng-repeat='blog in blogArt | filter:search'>
 			<div class="title">
 				<h2>{{blog.name}}</h2>
-				<p>{{blog.date}}</p>
+				<small>{{blog.date}}</small>
 			</div>
 			<div class="body">
 				<p>{{blog.body}}</p>
 			</div>
+			<a href="#">Read more &rarr;</a>
+			<hr>
 		</div>
 	</section>
 	<footer>
+		<input type="text" ng-model='search'>
 		<p><b>oscar elizondo</b></p>
 	</footer>
 
 	<script src='bower_components/angular/angular.js'></script>
+	<script src='bower_components/firebase/firebase.js'></script>
 	<script src='dist/js/app.js'></script>
 	<script src='dist/js/controllers/controller_1.js'></script>
 </body>
