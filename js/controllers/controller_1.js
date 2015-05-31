@@ -4,22 +4,22 @@ app.controller('MainCtrl', ['$scope', function($scope){
 		{
 			name: 'Hello world',
 			date: '26/05/2015',
-			body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi placeat rem, eaque, vel voluptatem iusto quidem quasi reprehenderit rerum quam temporibus. Quidem eligendi aut dolor nisi nostrum. Voluptate, officiis, consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione maiores voluptates vel consequuntur expedita animi eum perspiciatis possimus atque cumque, enim delectus placeat, nam rem architecto voluptatem ipsum a blanditiis.'
+			body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi placeat rem, eaque, vel voluptatem iusto quidem quasi reprehenderit rerum quam temporibus. Quidem eligendi aut dolor nisi nostrum.'
 		},
 		{
 			name: 'second',
 			date: '26/05/2015',
-			body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi placeat rem, eaque, vel voluptatem iusto quidem quasi reprehenderit rerum quam temporibus. Quidem eligendi aut dolor nisi nostrum. Voluptate, officiis, consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione maiores voluptates vel consequuntur expedita animi eum perspiciatis possimus atque cumque, enim delectus placeat, nam rem architecto voluptatem ipsum a blanditiis.'
+			body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi placeat rem, eaque, vel voluptatem iusto quidem quasi reprehenderit rerum quam temporibus. Quidem eligendi aut dolor nisi nostrum.'
 		},
 		{
 			name: 'third',
 			date: '26/05/2015',
-			body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi placeat rem, eaque, vel voluptatem iusto quidem quasi reprehenderit rerum quam temporibus. Quidem eligendi aut dolor nisi nostrum. Voluptate, officiis, consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione maiores voluptates vel consequuntur expedita animi eum perspiciatis possimus atque cumque, enim delectus placeat, nam rem architecto voluptatem ipsum a blanditiis.'
+			body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi placeat rem, eaque, vel voluptatem iusto quidem quasi reprehenderit rerum quam temporibus. Quidem eligendi aut dolor nisi nostrum.'
 		},
 		{
 			name: 'fourth',
 			date: '26/05/2015',
-			body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi placeat rem, eaque, vel voluptatem iusto quidem quasi reprehenderit rerum quam temporibus. Quidem eligendi aut dolor nisi nostrum. Voluptate, officiis, consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione maiores voluptates vel consequuntur expedita animi eum perspiciatis possimus atque cumque, enim delectus placeat, nam rem architecto voluptatem ipsum a blanditiis.'
+			body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi placeat rem, eaque, vel voluptatem iusto quidem quasi reprehenderit rerum quam temporibus. Quidem eligendi aut dolor nisi nostrum.'
 		}
 	]
 }]);
