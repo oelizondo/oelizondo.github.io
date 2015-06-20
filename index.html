@@ -20,18 +20,6 @@
 		</nav>
 	</aside>
 	<div ng-view></div>
-	<section ng-controller='MainCtrl' class='blog'>
-		<div ng-repeat='blog in blogArt | filter:search' class="micro-post">
-			<div class="title">
-				<h2>{{blog.name}}</h2>
-				<small>{{blog.date}}</small>
-			</div>
-			<div class="body">
-				<p>{{blog.body}}</p>
-			</div>
-			<hr>
-		</div>
-	</section>
 	<footer>
 		<p><b>oscar elizondo</b></p>
 	</footer>
