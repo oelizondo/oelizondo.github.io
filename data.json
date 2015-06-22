@@ -1,0 +1,23 @@
+[
+		{
+				"title": "First Post",
+				"body": "    Hello world from Anuglar! This little post will contain a brief explanation of why and how this blog exists. Why, well because it's mandatory for every web developer to have at least a blog or profile website. This simple blog was built with Angular, mostly out of my curiosity to explore a new font-end framework. Although there are many, Angular seemed to be the one with the lowest barrier to introduce myself to FE frameworks. It was relatively easy and straightforward. Using Angular's routing module, I was able to implement different views via the ng-view directive, such as the one you're reading or the about section. Aditionally, data is dynamic, this means that the post you're reading is not hard-coded into the HTML, but instead is fetched with a http request to hit a json file and retrieve the data necessary to populate this view, again, injected with Angular's convenient directives. Overall, I can say that this was a wonderful experience and that Angular can really be learned by anyone that feels even slightly inclined or interested to build an awesome app with this framework. It's perfect for new comers.",
+				"id" : "1",
+				"date" : "10/06/2015"
+
+		},
+		{
+			"title": "What I learned from using Linux for a year",
+				"body": "    Nobody really cared. That's really it, after a whole year of being hyped (before installing Linux) I installed Ubuntu with high hopes. I was aiming to create a healthy, productive development evironment to work better. Needless to say, I did get what I was aiming for, distraction-free, terminal-heavy web development, which is what I'm focusing on right now. It was amazing, I just had to type in the magic words 'sudo apt-get install' and everything flowed like it should've. The app center Ubuntu provided was great, although not frequently used. The installation was easy, (this distro has a  good reputation about installation) and I did not meet a 'cultural' clash coming from Windows. I was ready and comfortable withing a few hours of trying out the default Ubuntu UI. Installed everything I needed to start working, and off I went. The forums guided me and made me feel cozy using this 'omnipotent terminal', since Windows  doesn't rely heavily on it. This awesome flow stayed like this for a good while, and it helped me develop cool projects with colleagues and friends. Until I went back to school, that is. My paradise vanished from one day to the other when I found out that I needed to install programs that weren't supported not only on Ubuntu, but Linux as a whole. The software I needed were useless programs that I needed for my Spanish class, and needless to say, there was no support for my OS. I don't blame the company that distributes the software I needed, but the lack of support from my school to help me solve this problem. Now, this may be personal, but I think that every school needs to be ready to solve specific cases like mine. I'm not saying I'm special, but it'd be nice to find alternatives and support from your school, that imposes useless software that I need to pass a class. That is what I mean when I said 'nobody cared', because nobody did. The problem was not not solved, and I had to borrow a friend's computer every month in order to answer an online test. (The program I needed provided my school's website interface in a closed environment where I had the rest of my computer bocked). So what can I say, Linux is great, I loved it, I'm still using it at home, school-free. I wrote this to let people know that everybody speaks highly of Linux, and I agree, but if you're in school chances are it's not ready to provide support for compatibility problems with your OS. Godspeed, Linux users. ",
+				"id":"2",
+				"date":"10/06/2015"
+		},
+		{
+			"title": "Internship",
+				"body": "My Internship at Icalia Labs",
+				"id":"3",
+				"date":"10/06/2015"
+		}
+
+
+	]
