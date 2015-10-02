@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>oscar elizondo</title>
-	<link rel="stylesheet" href="dist/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <title>oscar elizondo</title>
+    <link rel="stylesheet" href="build/css/style.css">
+    <link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 </head>
-<body ng-app='app'>
-	<nav>
-		<h2><a href="#/index">oscar <br> elizondo</a></h2>
-		<small>all of my what</small>
-		<ul>
-			<li><a href="https://twitter.com/oehinojosa" target='_blank'>twitter</a></li>
-			<li><a href="https://github.com/oscarmarcelo95" targe='_blank'>github</a></li>
-			<li><a href="#/about">about me</a></li>
-		</ul>
-		<input type="text" ng-model='search' placeholder='Search a post...'>
-	</nav>
-
-	<div ng-view></div>
-
-	<script src='bower_components/angular/angular.js'></script>
-	<script src='bower_components/angular-route/angular-route.js'></script>
-	<script src='bower_components/angular-animate/angular-animate.js'></script>
-	<script src='js/app.js'></script>
-	<script src='js/controllers.js'></script>
-	<script src='js/routes.js'></script>
+<body>
+    <div class="title-screen">
+        <h1 class="title">oscar elizondo</h1>
+    </div>
+    <div class="row main-content">
+        <h1>work</h1>
+        <div class="bubble">
+            <p><a href="https://github.com/oelizondo/Sofia">sofia</a></p>
+        </div>
+        <div class="bubble">
+            <p><a href="https://github.com/oelizondo/gitwrap-rb">gitwrap</a></p>
+        </div>
+        <div class="bubble">
+            <p><a href="https://github.com/oelizondo">andrea</a></p>
+        </div>
+    </div>
+    <script src='build/js/main.js'></script>
 </body>
+</html>
 </html>
