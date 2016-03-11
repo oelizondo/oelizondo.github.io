@@ -1,74 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #171716; }
+  background: white; }
 
-.title-screen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-  height: 100vh;
-  letter-spacing: 3px; }
-  .title-screen .title {
-    letter-spacing: 3px;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    font-weight: 100;
-    margin: 0; }
-  .title-screen .title-subtitle {
-    color: #F8BBD0; }
-
-.description {
-  color: white;
-  letter-spacing: 3px;
-  font-weight: 100; }
-
-.main-content {
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 3px;
-  height: auto;
-  margin-bottom: 25px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-flow: column; }
-  .main-content h1 {
-    text-align: center;
-    color: pink; }
-  .main-content .bubble {
-    display: flex;
-    height: 170px;
-    width: 170px;
-    border: 2px solid #F8BBD0;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    align-items: center;
-    align-self: center;
-    justify-content: center;
-    margin: 20px; }
-    .main-content .bubble p {
-      color: #F8BBD0;
-      margin: 0; }
-      .main-content .bubble p a {
-        text-decoration: none;
-        color: #F8BBD0; }
-    .main-content .bubble:hover {
-      background: #F8BBD0;
-      transition: 0.2s; }
-      .main-content .bubble:hover a {
-        color: #171716; }
-
-.footer {
-  text-align: center;
-  font-size: 10px;
-  letter-spacing: 2px;
-  height: auto;
-  color: pink; }
-  .footer a {
-    text-decoration: none; }
-
-@media (max-width: 800px) {
-  .main-content .bubble {
-    height: 130px;
-    width: 130px; } }
+.row {
+  margin-top: 100px; }

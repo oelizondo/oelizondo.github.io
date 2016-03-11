@@ -4,7 +4,7 @@ var gulp    = require('gulp'),
     watch   = require('gulp-watch'),
     plumber = require('gulp-plumber'),
     gls     = require('gulp-live-server');
-    
+
 gulp.task('serve', function(){
     var server = gls.static('/', 8000);
     server.start();

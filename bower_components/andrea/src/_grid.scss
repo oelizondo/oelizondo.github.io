@@ -1,0 +1,102 @@
+.base-properties {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.row {
+  min-width: 100%;
+  max-width: 100%;
+  @extend .base-properties;
+}
+
+.container {
+  width: 1100px; 
+  max-width: 1100px;
+  margin: 0 auto;
+  @extend .base-properties;
+}
+
+.one { 
+  @extend .base-properties;
+  width: calc(100%/12);
+  max-width: calc(100%/12);
+}
+.two { 
+  @extend .base-properties;
+  width: calc(100%/6);
+  max-width: calc(100%/6);
+}
+.three { 
+  @extend .base-properties;
+  width: calc(100%/4);
+  max-width: calc(100%/4);
+}
+.four { 
+  @extend .base-properties;
+  width: calc(100%/3);
+  max-width: calc(100%/3);
+}
+.five { 
+  @extend .base-properties;
+  width: calc(100%/2.4);
+  max-width: calc(100%/2.4);
+}
+.six { 
+  @extend .base-properties;
+  min-width: calc(100%/2.1);
+  max-width: calc(100%/2.1);
+}
+.seven { 
+  @extend .base-properties;
+  width: calc(100%/1.72);
+  max-width: calc(100%/1.72);
+}
+.eight { 
+  @extend .base-properties;
+  width: calc(100%/1.5);
+  max-width: calc(100%/1.5);
+}
+.nine { 
+  @extend .base-properties;
+  width: calc(100%/1.33333);
+  max-width: calc(100%/1.33333);
+}
+.ten { 
+  @extend .base-properties;
+  width: calc(100%/1.2);
+  max-width: calc(100%/1.2);
+}
+.eleven { 
+  @extend .base-properties;
+  width: calc(100%/1.090909);
+  max-width: calc(100%/1.090909);
+}
+.twelve { 
+  @extend .base-properties;
+  width: 100%; 
+}
+
+@media (max-width: 500px) {
+  .one   ,
+  .two   ,
+  .three ,
+  .four  ,
+  .six   ,
+  .five  ,
+  .seven ,
+  .eight ,
+  .nine  ,
+  .ten   ,
+  .eleven,
+  .twelve { min-width: 100%; }
+
+  .container {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    max-width: 350px; 
+  }
+}
