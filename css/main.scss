@@ -1,0 +1,75 @@
+/* Main imports for project */
+@import 'mixins';
+
+/* Base Rules for Website */
+body{
+  color: #444;
+  margin: 0;
+  padding: 0; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 300;
+}
+
+.wrap {
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+/* Website Styles */
+
+.heading {
+  padding-top: 50px; 
+  .title {
+    font-size: 3rem;
+  }
+  .subtitle {
+    letter-spacing: 2px; 
+  }
+}
+
+.projectdashboard {
+  min-height: 35vh;
+  @extends .wrap;
+  .project {
+    height: 160px;
+    width: 260px;
+
+    @include levitate(-10px, 0px, 0px, 0px);
+    &:hover {
+      z-index: 1000;
+      @include levitate(0px, 5px, 1px, 20px);
+    }
+  }
+}
+
+.footer {
+  height: 15vh;
+}
+
+@media (max-width: 600px) {
+  .heading {
+    text-align: center;
+  }
+
+  .projectdashboard {
+    .row {
+      -webkit-justify-content: center; 
+      justify-content: center; 
+    }
+  }
+
+  .footer {
+    h3 {
+      margin-top: 40px;
+      text-align: center;
+    }
+  }
+}
