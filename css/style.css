@@ -1,0 +1,12 @@
+.main-container {
+  width: 40vw;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
