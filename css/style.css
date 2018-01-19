@@ -1,12 +1,8 @@
 .main-container {
-  width: 40vw;
+  width: 80vw;
   margin: 0 auto;
 }
 
-a {
-  text-decoration: none;
-}
-
-.center {
-  text-align: center;
+.six {
+  width: 50%;
 }
