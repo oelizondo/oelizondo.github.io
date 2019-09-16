@@ -2,21 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: black;
+  font-family: 'Playfair Display', serif;
 }
 
-.person {
-  padding-top: 50px;
-  position: fixed;
-}
-
-.person-content {
-  margin-left: 220px;
-}
-
-.person .person-info {
-  padding-top: 50px;
-}
-
-.person .person-contacts {
-  padding-top: 50px;
+.name {
+  font-size: 65px;
 }
