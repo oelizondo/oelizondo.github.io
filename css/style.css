@@ -1,11 +1,60 @@
+@font-face {
+  font-family: CourierPrime;
+  src: url(../assets/fonts/CourierPrime-Regular.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: black;
-  font-family: 'Playfair Display', serif;
+  font-family: CourierPrime;
+}
+
+body {
+  background-color: #D7B9A5;
+  max-height: 100vh;
+  max-width: 100vw;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .name {
-  font-size: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name p {
+  font-weight: 100;
+  color: #D7B9A5;
+}
+
+#cta {
+  background-color: #151721;
+  color: #D7B9A5;
+  height: 950px;
+  width: 950px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.info .links a {
+  text-decoration: none;
+  color: #D7B9A5;
+}
+
+.info .links a:hover {
+  text-decoration: underline;
+}
+
+.experience hr {
+  border: 1px solid #D7B9A5;
+  width: 40px;
+}
+
+.title, p {
+  color: #D7B9A5;
 }
