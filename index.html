@@ -3,74 +3,73 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Oscar Elizondo</title>
   </head>
   <body>
-    <div class="section">
-      <div class="container">
-        <div class="columns">
-          <div class="column person">
-            <div class="person-name">
-              <b class="title">Oscar <br> Elizondo</b>
-            </div>
-            <div class="person-info">
-              <ul>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#work">work</a></li>
-                <li><a href="#about">about</a></li>
-              </ul>
-            </div>
-            <div class="person-contacts">
-              <ul>
-                <li><a href="https://github.com/oelizondo" target="_blank">github</a></li>
-              </ul>
+    <main class="hero is-large">
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">
+                Work
+              </a>
+              <a class="navbar-item">
+                Testimonies
+              </a>
             </div>
           </div>
-          <div class="column is-four-fifths person-content">
-            <div id="projects"class="section person-projects">
-              <p class="subtitle">Some open source things I've done.</p>
-              <ul>
-                <li><b>Sofia</b> > A small static site generator with features like live-reloading and Sass compilation out of the box.</li>
-                <li><b>Andrea</b> > A minimal front-end framework.</li>
-                <li><b>Flex Tutorial</b> > Writing a small parser with Flex and C.</li>
-                <li><b>Learning Git</b> > Guide to getting started with Git.</li>
-                <li><b>Learning Web Development</b> > A guide detailing my personal path to kickstarting my carreer in web development.</li>
-                <li><b>Gitwrap</b> > A wrapper around the Github API.</li>
-                <li><b>Sepomex-rb</b> > A wrapper for the Sepomex API, querying Mexico's zip codes.</li>
-                <li><b>Goro</b> > Price display changer based on your location.</li>
-              </ul>
-            </div>
-            <div class="section person-projects">
-              <p class="subtitle">Projects</p>
-              <ul>
-                <li><b>Climademexico</b> > Rest API providing historical climate data in Mexico.</li>
-                <li><b>Wrytter</b> > Webapp that consumes /r/writingprompts to provive a quick way to  get rid of writer's block.</li>
-                <li><b>Walnut</b> > Object Oriented Compiler implemented in python.</li>
-                <li><b>Shto</b> > Wrapper that provides an easy API to make for data persistent through page refreshes.</li>
-              </ul>
-            </div>
-            <div id="work" class="section person-work">
-              <p class="subtitle">Places I've worked at.</p>
-              <ul>
-                <li>Lead Software Developer at <b>Monkier</b></li>
-                <li>Junior Developer at <b>Icalia Labs</b></li>
-                <li>Junior Developer at <b>46 Labs</b></li>
-                <li>Summer Intern at <b>Codeando México</b></li>
-                <li>Junior Developer at <b>Moneypool</b></li>
-              </ul>
-            </div>
-            <div id="about" class="section person-about">
-              <p class="subtitle">A little bit about me.</p>
-              <p>Ruby and Node Developer based in Mexico. Computer Scientist, coffee and headphone enthusiast.</p>
-              <br>
-              <p>oscarmarcelo95@gmail.com</p>
-              <br>
-              <i class="emoji">🤘</i>
-            </div>
-          </div>
+        </nav>
+      </div>
+      <div class="columns hero-body">
+        <div class="column name has-text-centered">
+          <h1 class="">Oscar <br> Elizondo</h1>
+        </div>
+        <div class="column">
+          <section class="description is-size-4">
+            <p>Fulltime Software Engineer. <br>
+            Silly and ideas are my passion. <br>
+            Software engineer with keen interest for web techologies.</p>
+          </section>
         </div>
       </div>
-    </div>
+    </main>
+    <section class="section is-medium has-text-centered">
+      <div class="columns hero-body">
+        <section class="column tools">
+          <h2 class="is-size-4"><strong>Tools</strong></h2>
+          <ul>
+            <li>Ruby</li>
+            <li>Javascript</li>
+            <li>Ruby on Rails</li>
+            <li>React</li>
+            <li>Node</li>
+          </ul>
+        </section>
+
+        <section class="column work">
+          <h2 class="is-size-4"><strong>Projects</strong></h2>
+          <ul>
+            <li>Wrytter</li>
+            <li>Climademexico</li>
+            <li>Walnut</li>
+            <li>Shto</li>
+            <li>Goro</li>
+          </ul>
+        </section>
+      </div>
+    </section>
+    <section class="section is-medium has-text-centered">
+      <p class="is-size-4"><strong>What people say about me:</strong></p>
+      <p>“This guy’s the worst.” — My boss</p>
+      <p>“I thought you knew how to code!” — Someone that hired me</p>
+      <p>“I really don’t know how this dumbf*ck graduated college.” — Career Director</p>
+      <p>“Go back to your playground script kiddie” — Another reddit stranger</p>
+    </section>
   </body>
 </html>
