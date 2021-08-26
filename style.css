@@ -1,0 +1,67 @@
+body {
+  padding: 100px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 60vw;
+  width: 35vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+.main-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.pic-container {
+  flex-grow: 1;
+  align-self: center;
+}
+
+.info-container {
+  flex-grow: 1;
+}
+
+.info-container h3 {
+  font-size: 2.5em;
+}
+
+.info-container p {
+  font-size: 1.8em;
+}
+
+.info-container .balazo {
+  font-size: 1.2em;
+}
+
+.pic {
+  height: 250px;
+  width: 250px;
+}
+
+.info-details {
+  max-width: 25vw;
+  width: 20vw;
+  padding-top: 70px;
+}
+
+.info-details .contact {
+  padding-top: 70px;
+}
+
+.sake {
+  padding-top: 70px;
+  text-align: center;
+}
+
+.sake p {
+  margin: 0 auto;
+}
